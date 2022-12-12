@@ -1,0 +1,37 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EStatusEffectType.generated.h"
+
+UENUM(BlueprintType)
+enum class EStatusEffectType : uint8 {
+    DISABLE_ALL,
+    DISABLE_MOVE,
+    DISABLE_ABILTY,
+    DEX_DOWN,
+    SLIP_DAMAGE,
+    NOT_ATTACKED,
+    AUTOMATON_TARGET_ATTACKER,
+    COUNTER,
+    COUNTER_BY_TURN,
+    ACT_TWICE,
+    UNDERCOVER,
+    ABSORB_FIRE,
+    ABSORB_ICE,
+    ABSORB_THUNDER,
+    ABSORB_WIND,
+    INSTANT_DEATH,
+    LONG_RANGE_MASTER,
+    RELEASE_BUFF_DEBUFF,
+    AUTO_REVIVE,
+    REGENERATE,
+    TEMPTATION,
+    AUTO_ABILITY_GENERATE,
+    MIGHTY_BLOW,
+    DELAY_DAMAGE,
+    RANGE_EXTEND_BY_TURN,
+    CHARGE_TIME,
+    INVINCIBLE,
+    CHANGE_WEATHER,
+    CHANGE_WIND,
+};
+

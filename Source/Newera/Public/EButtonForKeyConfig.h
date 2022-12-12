@@ -1,0 +1,45 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EButtonForKeyConfig.generated.h"
+
+UENUM(BlueprintType)
+enum class EButtonForKeyConfig : uint8 {
+    UP,
+    DOWN,
+    LEFT,
+    RIGHT,
+    RUP,
+    RDOWN,
+    RRIGHT,
+    RLEFT,
+    LSHOULDER,
+    LTRIGGER,
+    RSHOULDER,
+    RTRIGGER,
+    STICKL_UP,
+    STICKL_DOWN,
+    STICKL_LEFT,
+    STICKL_RIGHT,
+    STICKL_BUTTON,
+    STICKR_UP,
+    STICKR_DOWN,
+    STICKR_LEFT,
+    STICKR_RIGHT,
+    STICKR_BUTTON,
+    SPECIALRIGHT,
+    SPECIALLEFT,
+    LEFTMOUSEBUTTON,
+    RIGHTMOUSEBUTTON,
+    MIDDLEMOUSEBUTTON,
+    THUMBMOUSEBUTTON,
+    THUMBMOUSEBUTTON2,
+    CAMERAQUICKMOVE,
+    MOUSEDECIDE,
+    MOUSECANCEL,
+    MOUSESPECIAL,
+    MOUSEDETAIL,
+    MOUSECAMERA,
+    MOUSECAMERASNAP,
+    NUM,
+};
+
