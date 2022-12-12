@@ -26,6 +26,6 @@ protected:
     ANeweraPlayerCameraManager* PlayerCameraManager;
     
 public:
-    ANeweraCameraActor();
+    ANeweraCameraActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     ELookatTrackingRotateBase LookatTrackingRotateBase;
     
-    ASequenceCameraActor();
+    ASequenceCameraActor(const FObjectInitializer& ObjectInitializer);
 };
 

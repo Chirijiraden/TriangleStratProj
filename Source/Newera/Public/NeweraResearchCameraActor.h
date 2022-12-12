@@ -16,7 +16,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float InitialCameraOffset;
     
-    ANeweraResearchCameraActor();
+    ANeweraResearchCameraActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetCameraTargetLength(float CameraTargetLength);
     

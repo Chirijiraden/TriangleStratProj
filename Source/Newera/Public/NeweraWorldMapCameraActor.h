@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class NEWERA_API ANeweraWorldMapCameraActor : public ANeweraCameraActorControllable {
     GENERATED_BODY()
 public:
-    ANeweraWorldMapCameraActor();
+    ANeweraWorldMapCameraActor(const FObjectInitializer& ObjectInitializer);
 };
 

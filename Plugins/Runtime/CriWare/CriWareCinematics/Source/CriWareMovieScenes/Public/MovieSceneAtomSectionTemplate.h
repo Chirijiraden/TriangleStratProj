@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Evaluation/MovieSceneEvalTemplate.h"
+#include "MovieSceneAtomTrack.h"
 #include "MovieSceneAtomSectionTemplate.generated.h"
 
 class UMovieSceneAtomSection;
@@ -13,5 +14,7 @@ public:
     UMovieSceneAtomSection* AtomSection;
     
     CRIWAREMOVIESCENES_API FMovieSceneAtomSectionTemplate();
-};
 
+	FMovieSceneAtomSectionTemplate(const UMovieSceneAtomSection& Section, const UMovieSceneAtomTrack& Track);
+	virtual ~FMovieSceneAtomSectionTemplate() = default;
+};

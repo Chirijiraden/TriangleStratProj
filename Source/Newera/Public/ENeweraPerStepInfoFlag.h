@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "ENeweraPerStepInfoFlag.generated.h"
 
-UENUM(BlueprintType)
-enum class ENeweraPerStepInfoFlag : uint8 {
+UENUM()
+enum class ENeweraPerStepInfoFlag : uint16 {
     NONE,
     JUMP,
     SHORTCUT,

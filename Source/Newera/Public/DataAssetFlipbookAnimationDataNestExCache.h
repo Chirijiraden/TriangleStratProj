@@ -14,4 +14,3 @@ public:
     
     NEWERA_API FDataAssetFlipbookAnimationDataNestExCache();
 };
-

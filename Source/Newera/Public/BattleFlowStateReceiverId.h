@@ -8,4 +8,4 @@ struct FBattleFlowStateReceiverId {
 public:
     NEWERA_API FBattleFlowStateReceiverId();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FBattleFlowStateReceiverId) { return 0; }

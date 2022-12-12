@@ -1,5 +1,5 @@
 #include "NeweraWorldMapCameraActor.h"
 
-ANeweraWorldMapCameraActor::ANeweraWorldMapCameraActor() {
+ANeweraWorldMapCameraActor::ANeweraWorldMapCameraActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

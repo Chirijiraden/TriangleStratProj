@@ -17,7 +17,7 @@ private:
     UInterpFloat* InterpT;
     
 public:
-    AWorldMapNarrationDummyCamera();
+    AWorldMapNarrationDummyCamera(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ReserveCameraPosition(FVector LocationOnEnd, FRotator RotationOnEnd, float FOVOnEnd);
     

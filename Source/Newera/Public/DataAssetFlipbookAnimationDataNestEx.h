@@ -14,4 +14,4 @@ public:
     
     NEWERA_API FDataAssetFlipbookAnimationDataNestEx();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FDataAssetFlipbookAnimationDataNestEx) { return 0; }

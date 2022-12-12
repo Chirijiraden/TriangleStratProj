@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EMillitarySymbolStateFlag.generated.h"
 
-UENUM(BlueprintType)
-enum class EMillitarySymbolStateFlag : uint8 {
+UENUM()
+enum class EMillitarySymbolStateFlag : uint16 {
     NONE,
     VISIBLE_MAIN,
     VISIBLE_FLAG,

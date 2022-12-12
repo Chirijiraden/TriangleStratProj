@@ -8,4 +8,4 @@ struct FFlipbookCacheKey {
 public:
     NEWERA_API FFlipbookCacheKey();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FFlipbookCacheKey) { return 0; }

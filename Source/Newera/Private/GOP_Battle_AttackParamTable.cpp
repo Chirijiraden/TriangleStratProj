@@ -70,7 +70,7 @@ FGOP_Battle_AttackParamTable::FGOP_Battle_AttackParamTable() {
     this->bRemoveUnenterableEffectableArea = false;
     this->bRemoveCanNotStandGrid = false;
     this->bBlockUnchainedEffectableRange = false;
-    this->EOptionalMoveType = EOptionalMoveType::NONE;
+    this->OptionalMoveType = EOptionalMoveType::NONE;
     this->OptionalMoveParam1 = 0;
     this->eOptionalMoveTypeForDefender = EOptionalMoveType::NONE;
     this->EAutoFocusType = EAutoFocusType::SINGLE_DAMAGE;
@@ -78,7 +78,7 @@ FGOP_Battle_AttackParamTable::FGOP_Battle_AttackParamTable() {
     this->fAllowHeightDifference = 0.00f;
     this->iPickupNum = 0;
     this->eSeqSelectType = ESequencerSelectType::NONE;
-    this->EBattleSequence = EBattleSequence::LS_ATTACK_NORMAL;
+    this->BattleSequence = EBattleSequence::LS_ATTACK_NORMAL;
     this->eBattleSequence2 = EBattleSequence::LS_ATTACK_NORMAL;
     this->eBattleSequenceCTStart = EBattleSequence::LS_ATTACK_NORMAL;
     this->bOrderSequence = false;

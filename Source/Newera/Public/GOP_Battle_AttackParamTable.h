@@ -253,7 +253,7 @@ public:
     bool bBlockUnchainedEffectableRange;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EOptionalMoveType EOptionalMoveType;
+    EOptionalMoveType OptionalMoveType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 OptionalMoveParam1;
@@ -277,7 +277,7 @@ public:
     ESequencerSelectType eSeqSelectType;
     
     UPROPERTY(EditAnywhere)
-    EBattleSequence EBattleSequence;
+    EBattleSequence BattleSequence;
     
     UPROPERTY(EditAnywhere)
     EBattleSequence eBattleSequence2;

@@ -1,6 +1,6 @@
 #include "NeweraBattleCameraActor.h"
 
-ANeweraBattleCameraActor::ANeweraBattleCameraActor() {
+ANeweraBattleCameraActor::ANeweraBattleCameraActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CameraLagSpeedForBattle = 0.00f;
     this->CameraRotationLagSpeedForBattle = 0.00f;
     this->CameraLagMaxDistanceForBattle = 0.00f;

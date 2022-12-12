@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EGopScenarioType.generated.h"
 
-UENUM(BlueprintType)
-enum class EGopScenarioType : uint8 {
+UENUM()
+enum class EGopScenarioType : uint16 {
     TEXT_MS06_X07_3E010,
     TEXT_MS07_HDR_1P010,
     TEXT_MS07_HDR_1P020,

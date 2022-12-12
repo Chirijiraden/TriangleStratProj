@@ -20,7 +20,7 @@ void ANeweraCameraActorControllable::EndChangingCamera(FName Identifier, float T
 void ANeweraCameraActorControllable::DisableOverwriteCameraRestrictDistance() {
 }
 
-ANeweraCameraActorControllable::ANeweraCameraActorControllable() {
+ANeweraCameraActorControllable::ANeweraCameraActorControllable(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer){
     this->CameraActorViewParams.AddDefaulted(9);
     this->TransitionTime = 0.00f;
     this->gridCameraRotaionCurve = NULL;

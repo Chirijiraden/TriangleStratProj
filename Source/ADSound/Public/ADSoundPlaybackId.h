@@ -8,4 +8,4 @@ struct FADSoundPlaybackId {
 public:
     ADSOUND_API FADSoundPlaybackId();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FADSoundPlaybackId) { return 0; }

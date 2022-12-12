@@ -79,7 +79,8 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 Switch_InitialDiaphragmBladeCount;
     
-    ANeweraCameraActorControllable();
+    ANeweraCameraActorControllable(const FObjectInitializer& ObjectInitializer);
+
     UFUNCTION(BlueprintCallable)
     void StartChangingCameraTargetZoom(FName Identifier, float targetDistance, const UCurveFloat* distanceCurve, float Time);
     

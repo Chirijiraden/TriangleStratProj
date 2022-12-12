@@ -29,6 +29,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FCameraActorViewParam> CameraActorViewParamsForStandby;
     
-    ANeweraBattleCameraActor();
+    ANeweraBattleCameraActor(const FObjectInitializer& ObjectInitializer);
 };
 

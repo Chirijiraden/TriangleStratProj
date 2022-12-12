@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EShpItemStockFlags.generated.h"
 
-UENUM(BlueprintType)
-enum class EShpItemStockFlags : uint8 {
+UENUM()
+enum class EShpItemStockFlags : uint32 {
     None,
     OpenedFlag,
     ClosedFlag,
@@ -36,7 +36,7 @@ enum class EShpItemStockFlags : uint8 {
     StockAddFlag20 = 0x10000000,
     StockAddFlag21 = 0x20000000,
     StockAddFlag22 = 0x40000000,
-    StockAddFlag23 = -0x80000000,
+    StockAddFlag23 = 0x80000000,
     EShpItemStockFlags_MAX = 0x40000001,
 };
 

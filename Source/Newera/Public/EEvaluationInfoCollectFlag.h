@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EEvaluationInfoCollectFlag.generated.h"
 
-UENUM(BlueprintType)
-enum class EEvaluationInfoCollectFlag : uint8 {
+UENUM()
+enum class EEvaluationInfoCollectFlag : uint16 {
     NONE,
     FRIENDLY_UNIT,
     ENEMY_UNIT,

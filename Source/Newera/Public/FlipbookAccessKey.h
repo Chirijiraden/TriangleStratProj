@@ -20,4 +20,4 @@ public:
     
     NEWERA_API FFlipbookAccessKey();
 };
-
+FORCEINLINE uint32 GetTypeHash(const FFlipbookAccessKey) { return 0; }

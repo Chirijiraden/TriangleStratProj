@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EGopDataType.generated.h"
 
-UENUM(BlueprintType)
-enum class EGopDataType : uint8 {
+UENUM()
+enum class EGopDataType : uint16 {
     GOP_PARAM,
     GOP_CONFIG_BUTTON,
     SOUND_BGM,

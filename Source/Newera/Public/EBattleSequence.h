@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EBattleSequence.generated.h"
 
-UENUM(BlueprintType)
-enum class EBattleSequence : uint8 {
+UENUM()
+enum class EBattleSequence : uint16 {
     LS_ATTACK_NORMAL,
     LS_ATTACK_PURSUIT,
     LS_END,

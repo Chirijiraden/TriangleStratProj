@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "ENeweraUICategories.generated.h"
 
-UENUM(BlueprintType)
-enum class ENeweraUICategories : uint8 {
+UENUM()
+enum class ENeweraUICategories : uint32 {
     None,
     Core,
     FastForward,
