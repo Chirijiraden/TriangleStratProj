@@ -17,6 +17,6 @@ public:
     UPROPERTY(EditAnywhere)
     float TriggerTimingFrame;
     
-    PAPER2D_API FPaperFlipbookNotifyInfo();
+    NEWERA_API FPaperFlipbookNotifyInfo();
 };
 

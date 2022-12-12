@@ -1,4 +1,4 @@
-#include "PaperFlipbookNotifyInfo.h"
+#include "Paper2DCustom/PaperFlipbookNotifyInfo.h"
 
 FPaperFlipbookNotifyInfo::FPaperFlipbookNotifyInfo() {
     this->EVENT = NULL;

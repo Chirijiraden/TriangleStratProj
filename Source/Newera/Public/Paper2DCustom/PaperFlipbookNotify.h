@@ -1,10 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "PaperFlipbookComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Object -FallbackName=Object
 #include "PaperFlipbookNotify.generated.h"
 
 UCLASS(Abstract, Blueprintable)
-class PAPER2D_API UPaperFlipbookNotify : public UObject {
+class NEWERA_API  UPaperFlipbookNotify : public UObject {
     GENERATED_BODY()
 public:
     UPaperFlipbookNotify();

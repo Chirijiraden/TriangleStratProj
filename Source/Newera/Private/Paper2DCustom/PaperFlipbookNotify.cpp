@@ -1,6 +1,4 @@
-#include "PaperFlipbookNotify.h"
-
-class UPaperFlipbookNotify;
+#include "Paper2DCustom/PaperFlipbookNotify.h"
 
 
 void UPaperFlipbookNotify::DeepCopy_Implementation(const UPaperFlipbookNotify* SrcObject) {

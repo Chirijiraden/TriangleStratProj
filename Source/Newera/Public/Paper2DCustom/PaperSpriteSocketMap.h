@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PaperSpriteSocket.h"
+#include "PaperSprite.h"
 #include "PaperSpriteSocketMap.generated.h"
 
 USTRUCT(BlueprintType)
@@ -10,6 +10,6 @@ public:
     UPROPERTY()
     TMap<FName, FPaperSpriteSocket> Sockets;
     
-    PAPER2D_API FPaperSpriteSocketMap();
+    NEWERA_API FPaperSpriteSocketMap();
 };
 

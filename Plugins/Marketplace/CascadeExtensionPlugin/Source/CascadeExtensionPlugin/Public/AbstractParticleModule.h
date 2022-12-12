@@ -8,7 +8,7 @@ UCLASS(Abstract, Blueprintable, EditInlineNew)
 class UAbstractParticleModule : public UParticleModule {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     FParticleRandomSeedInfo RandomSeedInfo;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

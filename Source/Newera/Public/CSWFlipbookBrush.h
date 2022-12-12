@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Paper2D -ObjectName=EFlipbookDirectionType -FallbackName=EFlipbookDirectionType
+#include "Paper2DCustom/EFlipbookDirectionType.h"
 #include "Styling/SlateColor.h"
 #include "CSWFlipbookBrush.generated.h"
 
